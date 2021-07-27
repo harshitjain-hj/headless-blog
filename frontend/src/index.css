@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0 30px;
+  font-family: "Poppins";
+  background: #222831;
+  color: #fcfdff;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+.App {
+  /* font-size: 1.2em; */
+  margin: 10px auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fcfdff;
+  border-bottom: 1px solid;
+}
+.site-header h1 {
+  font-size: 1.5em;
+  color: #ffd369;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+}
+
+.site-header .categories {
+  text-align: right;
+}
+
+.site-header .categories a {
+  color: #ffd369;
+  margin-left: 10px;
+}
+
+/* article list */
+.article-card {
+  background: #393e46;
+  margin: 40px auto;
+  padding: 1px 20px 20px 20px;
+  position: relative;
+}
+.article-card .rating {
+  position: absolute;
+  top: 25px;
+  left: -20px;
+  background: #ffd369;
+  font-size: 2.6em;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  color: #393e46;
+}
+.article-card h2 {
+  padding-left: 40px;
+  margin-bottom: 0;
+}
+.article-card small {
+  padding-left: 40px;
+  margin-right: 10px;
+  color: #777;
+}
