@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useQuery, gql } from "@apollo/client";
+import Markdown from "markdown-to-jsx";
 
 // import useFetch from "../hooks/useFetch";
 
@@ -11,6 +12,10 @@ const ARTICLE = gql`
       title
       body
       review
+      categories {
+        id
+        name
+      }
     }
   }
 `;
@@ -29,11 +34,17 @@ export default function ArticleDetails() {
 
   return (
     <div className="article-card">
-      <div className="rating">{data.article.review}</div>
-      <h2>{data.article.title}</h2>
-      <small>console list</small>
+      <div className="title-wrapper">
+        <div className="rating">{data.article.review}</div>
+        <h2>{data.article.title}</h2>
 
-      <p>{data.article.body}</p>
+        <div className="categories-tag">
+          {data.article.categories.map((cate) => (
+            <small key={cate.id}>{cate.name}</small>
+          ))}
+        </div>
+      </div>
+      <Markdown>{data.article.body}</Markdown>
     </div>
   );
 }

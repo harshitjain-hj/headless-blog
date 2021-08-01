@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-  margin: 0 30px;
-  font-family: "Poppins";
+  margin: 0 15px;
+  font-family: "Poppins", sans-serif;
   background: #222831;
   color: #fcfdff;
 }
@@ -14,7 +14,7 @@ h4 {
 }
 .App {
   /* font-size: 1.2em; */
-  margin: 10px auto;
+  margin: 0 auto;
   width: 100%;
   max-width: 1200px;
   padding: 10px 0;
@@ -45,26 +45,84 @@ a {
 .article-card {
   background: #393e46;
   margin: 40px auto;
-  padding: 1px 20px 20px 20px;
+  padding: 1px 20px 10px 20px;
   position: relative;
+  word-wrap: break-word;
 }
 .article-card .rating {
   position: absolute;
   top: 25px;
-  left: -20px;
+  left: -15px;
   background: #ffd369;
-  font-size: 2.6em;
-  width: 60px;
-  height: 60px;
+  font-size: 2.2em;
+  width: 50px;
+  height: 50px;
   text-align: center;
   color: #393e46;
 }
-.article-card h2 {
-  padding-left: 40px;
+.article-card .title-wrapper h2 {
+  padding-left: 30px;
   margin-bottom: 0;
 }
-.article-card small {
-  padding-left: 40px;
+.article-card .categories-tag {
+  padding-left: 30px;
   margin-right: 10px;
   color: #777;
+}
+
+.article-card .categories-tag small {
+  margin-right: 10px;
+}
+
+.article-card a {
+  text-decoration: none;
+  color: #ffd369;
+  border-bottom: 1px solid;
+}
+
+/* table */
+table {
+  width: auto;
+  border-collapse: collapse;
+}
+th {
+  /* background: #333; */
+  /* color: white; */
+  /* font-weight: 600; */
+}
+td,
+th {
+  padding: 6px;
+  border: 01px solid #ccc;
+  text-align: left;
+}
+
+/* code */
+/* code {
+  background: hsl(220, 80%, 90%);
+} */
+
+pre {
+  /* white-space: pre-wrap;
+  padding: 0 10px; */
+
+  background-color: #ffd3691c;
+  font-size: 1.1em;
+  overflow: auto;
+  padding: 6px;
+  border-radius: 6px;
+}
+code {
+  /* background-color: #ffd3691c; */
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+blockquote {
+  margin: 0;
+  border-left: 4px solid #ffd369;
+  padding: 6px 10px;
+}
+blockquote p {
+  display: inline;
 }
