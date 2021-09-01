@@ -9,7 +9,7 @@ import SiteHeader from "./components/SiteHeader";
 
 // apollo client
 const client = new ApolloClient({
-  uri: "http://localhost:1337/graphql",
+  uri: "https://young-thicket-57375.herokuapp.com/graphql",
   cache: new InMemoryCache(),
 });
 
