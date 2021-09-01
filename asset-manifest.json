@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/headless-blog/static/css/main.f5a418c9.chunk.css",
+    "main.js": "/headless-blog/static/js/main.fd194c5f.chunk.js",
+    "main.js.map": "/headless-blog/static/js/main.fd194c5f.chunk.js.map",
+    "runtime-main.js": "/headless-blog/static/js/runtime-main.1c9089fa.js",
+    "runtime-main.js.map": "/headless-blog/static/js/runtime-main.1c9089fa.js.map",
+    "static/js/2.4836ff08.chunk.js": "/headless-blog/static/js/2.4836ff08.chunk.js",
+    "static/js/2.4836ff08.chunk.js.map": "/headless-blog/static/js/2.4836ff08.chunk.js.map",
+    "index.html": "/headless-blog/index.html",
+    "static/css/main.f5a418c9.chunk.css.map": "/headless-blog/static/css/main.f5a418c9.chunk.css.map",
+    "static/js/2.4836ff08.chunk.js.LICENSE.txt": "/headless-blog/static/js/2.4836ff08.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c9089fa.js",
+    "static/js/2.4836ff08.chunk.js",
+    "static/css/main.f5a418c9.chunk.css",
+    "static/js/main.fd194c5f.chunk.js"
+  ]
+}
